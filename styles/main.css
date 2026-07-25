@@ -1,0 +1,224 @@
+.hero {
+    padding: 244px 0;
+    background-image: url(../photos/home/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.hero__subtitle {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #68a47f;
+    margin-bottom: 8px;
+}
+
+.hero__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 70px;
+    color: #274c5b;
+    margin-bottom: 24px;
+}
+
+.hero__btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #274c5b;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #efd372;
+    border-radius: 16px;
+    padding: 28px 39px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero__btn-icon {
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #335b6b;
+}
+
+.offers {
+    padding: 140px 0;
+}
+
+.offers__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.offer__card {
+    width: 100%;
+    height: 360px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer__card:nth-child(1) {
+    background-image: url(../photos/home/offer-one-bg.jpg);
+}
+
+
+.offer__card-subtitle {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.offer__card-title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    max-width: 277px;
+}
+
+.offer__card:nth-child(2) {
+    background-image: url(../photos/home/offer-two-bg.jpg);
+}
+
+.offer__card:nth-child(2) .offer__card-subtitle {
+    color: #7eb693;
+}
+
+.offer__card:nth-child(2) .offer__card-title {
+    color: #274c5b;
+}
+
+.about {
+    padding: 120px 0;
+    background-color: #F9F8F8;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.about__subtitle {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #7eb693;
+    margin-bottom: 8px;
+}
+
+.about__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    color: #274c5b;
+    margin-bottom: 16px;
+}
+
+.about__text {
+    max-width: 692px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #525c60;
+    margin-bottom: 46px;
+}
+
+.about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 44px;
+}
+
+.about__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about__item::before {
+    border-radius: 20px;
+    width: 101px;
+    height: 101px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url(../icons/home/about-one.svg);
+}
+
+.about__item:nth-child(2)::before {
+    content: url(../icons/home/about-two.svg);
+}
+
+.about__item-title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 25px;
+    color: #274c5b;
+}
+
+.about__item-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #525c60;
+}
+
+.about__link {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    padding: 28px 0px;
+    background-color: #274c5b;
+    width: 220px;
+}
+
+.about__link-icon{
+    background-color: #335B6B;
+    padding: 6px;
+    border-radius: 100%;
+}
+
+@media (min-width: 756px) {}
+
+@media (min-width: 1200px) {
+    .offer__card {
+        width: 40%;
+    }
+
+    .about__container {
+        flex-direction: row;
+    }
+
+    .about__img {
+        width: 48%;
+    }
+}
