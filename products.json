@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Vegetable",
+        "name": "Calabrese Broccoli",
+        "price": "$20.00",
+        "discount": "$13.00"        
+    },
+    {
+        "category": "Fresh",
+        "name": "Fresh Banana Fruites",
+        "price": "$20.00",
+        "discount": "$14.00"        
+    },
+    {
+        "category": "Millets",
+        "name": "White Nuts",
+        "price": "$20.00",
+        "discount": "$15.00"        
+    },
+    {
+        "category": "Vegetable",
+        "name": "Vegan Red Tomato",
+        "price": "$20.00",
+        "discount": "$17.00"        
+    },
+    {
+        "category": "Health",
+        "name": "Mung Bean",
+        "price": "$20.00",
+        "discount": "$11.00"        
+    },
+    {
+        "category": "Nuts",
+        "name": "Brown Hazelnut",
+        "price": "$20.00",
+        "discount": "$11.00"        
+    },
+    {
+        "category": "Fresh",
+        "name": "Eggs",
+        "price": "$20.00",
+        "discount": "$17.00"        
+    },
+    {
+        "category": "Fresh",
+        "name": "Zelco Suji Elaichi Rusk",
+        "price": "$20.00",
+        "discount": "$15.00"        
+    },
+    {
+        "category": "Health",
+        "name": "Zucchini",
+        "price": "$20.00",
+        "discount": "$11.00"        
+    },
+    {
+        "category": "Nuts",
+        "name": "White Hazelnut",
+        "price": "$20.00",
+        "discount": "$12.00"        
+    },
+    {
+        "category": "Fresh",
+        "name": "Fresh Corn",
+        "price": "$20.00",
+        "discount": "$17.00"        
+    },
+    {
+        "category": "Fresh",
+        "name": "Organic Almonds",
+        "price": "$20.00",
+        "discount": "$15.00"        
+    }
+]
