@@ -24,19 +24,10 @@ function renderProducts() {
         .map(product => `
             <div data-aos="zoom-in" class="product__card">
                 <h5 class="product__category">${product.category}</h5>
-                <img class="product__img" src="./photos/products/${product.name}.png" alt="">
+                <img class="product__img" src="../photos/products/${product.name}.png" alt="">
                 <h3 class="product__name">${product.name}</h3>
                 <h4 class="product__discount"><span class="product__price">${product.price}</span>${product.discount}</h4>
             </div>
         `)
         .join("");
 };
-
-loadProducts.addEventListener('click', () => {
-    productsBox.classList.toggle('expanded');
-
-    loadProducts.textContent =
-        productsBox.classList.contains('expanded')
-            ? 'Show Less'
-            : 'Load More';
-});

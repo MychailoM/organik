@@ -19,6 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,10 +34,10 @@
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Home</a>
+                        <a href="./index.html" class="header__nav-link">Home</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">About</a>
+                        <a href="./pages/about.html" class="header__nav-link">About</a>
                     </li>
                     <li class="header__nav-item">
                         <a href="#" class="header__nav-link">Pages <svg width="8" height="5" viewBox="0 0 8 5"
@@ -92,11 +93,11 @@
         </section>
         <section class="offers">
             <div class="container offers__container">
-                <div class="offer__card">
+                <div data-aos="zoom-in" class="offer__card">
                     <h4 class="offer__card-subtitle">Natural!!</h4>
                     <h3 class="offer__card-title">Get Garden Fresh Fruits</h3>
                 </div>
-                <div class="offer__card">
+                <div data-aos="zoom-in" class="offer__card">
                     <h4 class="offer__card-subtitle">Offer!!</h4>
                     <h3 class="offer__card-title">
                         Get 10% off
@@ -152,18 +153,203 @@
                 <div class="products__box">
 
                 </div>
-                <button type="button" class="load__products">Load More 
-                    <svg class="load__products-icon" width="9" height="8" viewBox="0 0 9 8"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button type="button" class="load__products">Load More
+                    <svg class="load__products-icon" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.4603 0.5L7.85484 3.56452L4.4603 6.62903M7.38337 3.56452H0.5" stroke="white"
                             stroke-linecap="round" stroke-linejoin="round" />
                     </svg></button>
             </div>
         </section>
+        <section class="reviews">
+            <div class="container">
+                <h3 class="reviews__subtitle">Testimonial</h3>
+                <h2 class="reviews__title">What Our Customer Saying?</h2>
+                <div class="reviews__box">
+                    <div class="review__track">
+                        <div class="review__item">
+                            <img src="./photos/home/reviewer-one.png" alt="reviewer" class="review__img">
+                            <h4 class="review__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p class="review__text">Simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                            <h3 class="review__name">Sara Taylor</h3>
+                        </div>
+                        <div class="review__item">
+                            <img src="./photos/home/reviewer-two.png" alt="reviewer" class="review__img">
+                            <h4 class="review__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p class="review__text">Simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                            <h3 class="review__name">James Wilson</h3>
+                        </div>
+                        <div class="review__item">
+                            <img src="./photos/home/reviewer-three.png" alt="reviewer" class="review__img">
+                            <h4 class="review__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p class="review__text">Simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                            <h3 class="review__name">Michael Evans</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="review__stats-box">
+                    <div data-aos="zoom-in" class="review__stat-item">
+                        <h3 class="review__stats-title">100%</h3>
+                        <h4 class="review__stats-name">Organic</h4>
+                    </div>
+                    <div data-aos="zoom-in" class="review__stat-item">
+                        <h3 class="review__stats-title">285</h3>
+                        <h4 class="review__stats-name">Active Product</h4>
+                    </div>
+                    <div data-aos="zoom-in" class="review__stat-item">
+                        <h3 class="review__stats-title">350+</h3>
+                        <h4 class="review__stats-name">Organic Orchads</h4>
+                    </div>
+                    <div data-aos="zoom-in" class="review__stat-item">
+                        <h3 class="review__stats-title">25+</h3>
+                        <h4 class="review__stats-name">Years of Farming</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages__content">
+                    <h3 class="advantages__subtitle">Eco Friendly</h3>
+                    <h2 class="advantages__title">Econis is a Friendly <br>
+                        Organic Store</h2>
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <h3 class="advantages__name">Start with Our Company First</h3>
+                            <p class="advantages__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                <br> doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </li>
+                        <li class="advantages__item">
+                            <h3 class="advantages__name">Learn How to Grow Yourself</h3>
+                            <p class="advantages__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                <br> doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </li>
+                        <li class="advantages__item">
+                            <h3 class="advantages__name">Farming Strategies of Today</h3>
+                            <p class="advantages__text">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                <br> doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="assortment">
+            <div class="container assortment__container">
+                <div data-aos="zoom-in" class="assortment__card">
+                    <h3 class="assortment__name">Organic Juice</h3>
+                </div>
+                <div data-aos="zoom-in" class="assortment__card">
+                    <h3 class="assortment__name">Organic Food</h3>
+                </div>
+                <div data-aos="zoom-in" class="assortment__card">
+                    <h3 class="assortment__name">Nuts Cookis</h3>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div data-aos="zoom-in" class="footer__subscribe">
+                <h2 class="footer__subscribe-title">
+                    Subscribe to <br>
+                    our Newsletter
+                </h2>
+                <div class="footer__subscribe-form">
+                    <input placeholder="Your Email Address" type="text" class="footer__subscribe-input">
+                    <button type="button" class="footer__subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div class="footer__contacts">
+                    <h2 class="footer__title">Contact Us</h2>
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            <h3 class="footer__contacts-name">Email</h3>
+                            <a href="#" class="footer__contacts-link">needhelp@Organia.com</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <h3 class="footer__contacts-name">Phone</h3>
+                            <a href="#" class="footer__contacts-link">666 888 888</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <h3 class="footer__contacts-name">Address</h3>
+                            <a href="#" class="footer__contacts-link">88 road, borklyn street, USA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__hero">
+                    <a href="index.html" class="footer__logo">
+                        <svg class="header__logo-icon">
+                            <use href="./icons/general/logo.svg"></use>
+                        </svg>
+                        Organick
+                    </a>
+                    <p class="footer__text">
+                        Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing
+                    </p>
+                </div>
+                <div class="footer__pages">
+                    <h2 class="footer__title">Utility Pages</h2>
+                    <ul class="footer__pages-list">
+                        <li class="footer__pages-item">
+                            <a href="#" class="footer__pages-link">Style Guide</a>
+                        </li>
+                        <li class="footer__pages-item">
+                            <a href="#" class="footer__pages-link">404 Not Found</a>
+                        </li>
+                        <li class="footer__pages-item">
+                            <a href="#" class="footer__pages-link">Password Protected</a>
+                        </li>
+                        <li class="footer__pages-item">
+                            <a href="#" class="footer__pages-link">Licences</a>
+                        </li>
+                        <li class="footer__pages-item">
+                            <a href="#" class="footer__pages-link">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <p class="footer__copyright">Copyright &copy; <strong>Organick</strong></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="mobile-menu">
+        <nav class="mobile-menu__nav">
+            <ul class="mobile-menu__list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <script type="module" src="./scripts/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
